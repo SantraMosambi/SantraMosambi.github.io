@@ -9,7 +9,7 @@ import Home from "./components/Home"
 
 const App=()=> {
   return (
-    <main>
+    <main >
       <Navbar />
       <Home/>
       <About />
