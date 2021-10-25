@@ -47,7 +47,6 @@ section {
 .about,
 .services,
 .skills,
-,
 .contact,
 footer {
     font-family: 'Poppins', sans-serif;
@@ -508,6 +507,10 @@ section .title::after {
 }
 
 .contact .contact-content .info .sub-title {
+    color: #2ecfe5;
+}
+
+.contact .contact-content .info .sub-title a {
     color: #2ecfe5;
 }
 
