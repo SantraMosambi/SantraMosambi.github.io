@@ -464,6 +464,10 @@ section .title::after {
     color: #fff
 }
 
+.contact a {
+    color: #fff
+}
+
 
 /* .contact .title::after {
     content: "get in touch";
@@ -591,6 +595,11 @@ footer {
     padding: 15px 23px;
     color: #111;
     text-align: center;
+    background-image: url(../img/home/page1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer span a {
@@ -601,6 +610,65 @@ footer span a {
 footer span a:hover {
     text-decoration: underline;
 }
+
+.name {
+    color: #2ecfe5;
+}
+
+
+/* gaurav start */
+
+footer i {
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer i:hover {
+    opacity: 0.7;
+}
+
+footer .fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+footer .fa-twitter {
+    background: #55acee;
+    color: white;
+}
+
+footer .fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+footer .fa-instagram {
+    background: #9c2dbb;
+    color: white;
+}
+
+footer .fa-github {
+    background: #212529;
+    color: white;
+}
+
+footer .soc {
+    display: inline-block;
+    margin: 4px;
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+    font-size: 20px;
+}
+
+
+/* gaurav end  */
 
 
 /* responsive media query start */
